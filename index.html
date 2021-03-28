@@ -14,7 +14,7 @@
       </div>
 
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><button onclick="bgchange()">Home</button></li>
         <li><a href="#">Document</a></li>
         <li><a href="#">Api</a></li>
         <li><a href="#">Discord</a></li>
@@ -35,8 +35,10 @@
 
       menuToggle.addEventListener("click", function () {
         nav.classList.toggle("slide");
-        document.body.style.backgroundColor = "#ccc";
       });
+      function bgchange {
+        document.body.style.backgroundColor = "#ccc";
+      }
     </script>
   </body>
 </html>
